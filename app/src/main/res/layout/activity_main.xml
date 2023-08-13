@@ -22,7 +22,8 @@
             android:id="@+id/editPrecoAlcool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Preco alcool ex: 69.0" />
+            android:hint="Preco alcool ex: 69.0"
+            android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -40,7 +41,8 @@
             android:id="@+id/editPrecoGasosa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Preco Gasolina ex 87.0" />
+            android:hint="Preco Gasolina ex 87.0"
+            android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
